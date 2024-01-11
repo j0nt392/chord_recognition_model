@@ -19,6 +19,7 @@ Then run main.py. It will print the chord and the triad notes within the chord.
 This model does not come with a dataset, it requires you to use your own. The recommended audiosamples you need:
 - One strum
 - No longer than 1-3 seconds
+- .wav format (or any other that works with Librosa)
 
 ## Feature extraction/Creating a dataset
 Create a folder in the project directory with the following structure (change the name of the subfolders if you'd like to train the model
