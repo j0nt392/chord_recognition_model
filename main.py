@@ -83,4 +83,4 @@ identifier = Chord_classifier()
 
 chord = identifier.predict_new_chord('Amajor.wav', '44100')
 notes = identifier.get_notes_for_chord(chord)
-print(f"chord predicted: {chord} \n triad notes: {notes}")
+print(f"chord predicted: {chord} \ntriad notes: {notes}")
