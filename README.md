@@ -30,7 +30,7 @@ on other chords). Each of the subfolders should contain one-shot samples of chor
 Once this is done, go to utils.py and connect to your postgresql server, and run utils.py. This should extract features from your chords, and
 pair them with the name of the folder they were in and store it all in SQL. 
 
-The way this works is as follows:
+The way feature extraction works is as follows:
 
 ### hpss
 
