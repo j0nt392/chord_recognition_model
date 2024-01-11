@@ -49,12 +49,8 @@ class Chord_classifier():
             return []
 
     def _extract_features(self, audio_file, fs):
-        audio = None
-        if type(audio_file) == str:
-            audio, fs = librosa.load(audio_file, sr = None)
-        else:
-            audio = audio_file
-        
+        audio, fs = librosa.load(audio_file, sr = None)
+    
         #preprocessing
         harmonic, percussive = librosa.effects.hpss(audio)
         
